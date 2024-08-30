@@ -1,0 +1,112 @@
+/* **************** HEADER **************** */
+
+
+@media screen and (max-width: 975px) {
+
+    header h2 {
+        font-size: 24px;
+        }
+
+    .entete h1 {
+        font-size: 30px;
+    }
+
+    .entete {
+        padding: 32px 0;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .entete h1 {
+        font-size: 26px;
+    }
+
+    .entete {
+        padding: 24px 0;
+    }
+}
+
+/* **************** MAIN **************** */
+
+
+@media screen and (max-width: 670px) {
+
+    .services h2 {
+        font-size: 20px;
+    } 
+
+    .services {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .service {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 345px) {
+
+ .service {
+        width: 90%;
+    }
+}
+
+/* **************** EXPERTISE / AUDIT **************** */
+
+
+@media screen and (max-width: 670px) {
+    .expertise-cta-button,
+    .audit-cta-button {
+        display: block;
+        width: 100%;
+        text-align: center;
+        /* margin-top: 16px; */
+    }
+}
+
+
+@media screen and (max-width: 460px) {
+    .main .h2-expertise,
+    .main .h2-audit {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .expertise-service-card h3,
+    .audit-service-card h3 {
+        text-align: center;
+    }
+
+    .expertise-service-card p,
+    .audit-service-card p {
+        text-align: center;
+    }
+}
+
+
+/* **************** RECRUTEMENT **************** */
+
+@media screen and (max-width: 530px) {
+    .job-listings {
+        justify-content: center;
+      }
+
+    .container h2 {
+        text-align: center;
+      }
+
+}
+
+@media screen and (max-width: 430px) {
+    .job-card {
+        width: 85%;
+    }
+
+    .job-listings {
+        justify-content: center;
+
+        justify-items: center;
+    }
+}

@@ -1,0 +1,47 @@
+.main .h2-audit {
+    color: var(--dark-blue);
+    border-bottom: 2px solid var(--dark-blue);
+    padding-bottom: 8px;
+    margin: 16px 0px 24px;
+}
+
+.audit-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 32px;
+    margin: 65px 0px
+}
+
+.audit-service-card {
+    min-height: 190px;
+    background-color: var(--light-blue);
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.audit-service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
+
+.audit-service-card h3 {
+    color: var(--dark-blue);
+    margin: 0px 0px 18px 0px;
+}
+
+.audit-cta-button {
+    display: inline-block;
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 14px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 32px;
+  }
+  .audit-cta-button:hover {
+    background-color: #0d47a1;
+  }

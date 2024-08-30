@@ -1,0 +1,82 @@
+.container h2 {
+    padding-bottom: 8px;
+    margin-bottom: 24px;
+  }
+
+.section {
+    margin-bottom: 48px;
+    padding: 32px;
+    border-radius: 8px;
+  }
+
+.expertise-section {
+    background-color: var(--pale-green);
+  }
+
+.expertise-section h2 {
+    color: var(--dark-green);
+    border-bottom: 2px solid var(--dark-green);
+  }
+
+.audit-section {
+    background-color: var(--light-blue);
+  }
+ 
+.audit-section h2 {
+    color: var(--dark-blue);
+    border-bottom: 2px solid var(--dark-blue);
+  }
+
+.job-listings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 32px;
+  }
+
+.job-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+.job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+  }
+
+.expertise-section .job-card h3 {
+    color: var(--dark-green);
+    margin-bottom: 24px;
+  }
+.audit-section .job-card h3 {
+    color: var(--dark-blue);
+    margin-bottom: 24px;
+  }
+
+.apply-button {
+    display: inline-block;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 16px;
+  }
+
+.expertise-section .apply-button {
+    background-color: var(--dark-green);
+  }
+
+.expertise-section .apply-button:hover {
+    background-color: #1b5e20;
+  }
+
+.audit-section .apply-button {
+    background-color: var(--dark-blue);
+  }
+.audit-section .apply-button:hover {
+    background-color: #0d47a1;
+  }

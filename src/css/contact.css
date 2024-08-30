@@ -1,0 +1,28 @@
+.contact-h2 {
+    color: var(--dark-blue);
+    border-bottom: 2px solid var(--dark-blue);
+    padding-bottom: 8px;
+    margin-bottom: 24px;
+  }
+
+.contact-info {
+    background-color: white;
+    border-radius: 8px;
+    padding: 32px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 32px;
+  }
+.contact-info h3 {
+    color: var(--dark-green);
+    margin-bottom: 32px;
+  }
+
+.contact-method {
+    margin-bottom: 24px;
+  }
+.contact-method h4 {
+    margin-bottom: 8px;
+  }
+.contact-method p {
+    margin: 0;
+  }
